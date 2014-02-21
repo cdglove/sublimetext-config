@@ -1,0 +1,3 @@
+{
+	"perforce_auto_add": false, // when true, any file within the client spec that doesn't exist during the presave will be added
+}
