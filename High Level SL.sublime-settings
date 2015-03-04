@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"fp",
-		"vp"
+		"vp",
+		"gp"
 	]
 }
