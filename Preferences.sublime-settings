@@ -1,9 +1,10 @@
 {
 	"auto_match_enabled": false,
-	"font_size": 9,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"tab_completion": false
+	"tab_completion": false,
+	"word_wrap": "false"
 }
