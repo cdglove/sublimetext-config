@@ -6,5 +6,6 @@
 		"Vintage"
 	],
 	"tab_completion": false,
-	"word_wrap": "false"
+	"word_wrap": "false",
+	"default_line_ending": "unix"
 }
