@@ -4,7 +4,7 @@ class OpenInVsCommand(sublime_plugin.TextCommand):
     def run( self, edit, ):
 
         if self.view.file_name():
-            command = [ "C:/Program Files (x86)/Microsoft Visual Studio 11.0/Common7/IDE/devenv.exe", "/Edit", self.view.file_name() ]
+            command = [ "C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.exe", "/Edit", self.view.file_name() ]
             p = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
             result, err = p.communicate()
